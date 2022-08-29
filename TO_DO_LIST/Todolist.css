@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.allitem {
+
+    margin: auto;
+    width: 50%;
+    height: fit-content;
+    background-color: #F2F3F4;
+    box-shadow: 0px 2px 4px 0px #F2F3F4;
+
+}
+.TOdolistInput{
+    outline: none;
+    border: none;
+    padding: 12px;
+}
+.todolistBtn {
+    border: none;
+    outline: none;
+    background-color: #6495ED;
+    padding: 12px;
+}
+
+.todoHeaderCon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 27px;
+    padding-bottom: 37px;
+}
+
+.ItemContainer {
+    background-color: #9FE2BF;
+    display: flex;
+    justify-content: space-between;
+    padding: 7px;
+    box-shadow: 1px 2px 4px 0px #9FE2BF;
+    border-radius: 20px;
+
+}
+
+#edit {
+    margin: 0px 10px;
+}
+
+.dlt {
+    color: rgba(255, 0, 0, 0.87);
+}
+
+.edt {
+    color: #6495ED;
+}
